@@ -16,16 +16,10 @@
     padding: 0px;
 }
 
-div{
-    display: inline-block;
-    background-color: lightgray;
-}
-
-
                                         /* HEADER */
 
 header{
-    background-color: var(--cor1);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     color: var(--cor5);
     text-align: center;
     font-family: var(--fonte1);
@@ -43,7 +37,7 @@ header p{
 }
 
 header nav{
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     font-weight: bold;
     text-align: left;
     padding: 8px;
@@ -59,29 +53,18 @@ header nav a:hover{
     text-decoration: underline;
 }
 
+/* MAIN */
 
-                                        /* MAIN */
-
-main{
-    background-color: var(--cor1);
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 2.5vw;
 }
 
-main p{
-    background-color: white;
-}
-
-main div.imagem{
-    height: 300px;
-    width: 25vw;
-    text-align: center;
-}
-
-main div.texto {
-    height: 300px;
-    width: 73.5vw;
-}
-
-                                        /* FOOTER */
+/* FOOTER */
 
 footer{
     background-color: var(--cor1);
